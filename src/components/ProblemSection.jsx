@@ -153,7 +153,7 @@ const GlowingMap = () => {
 
 // Quote typing component
 const TypingQuote = ({ className = '' }) => {
-  const text = '“The story we shared isn’t isolated — it represents millions of families who struggle daily because healthcare access ends where the road does.”';
+  const text = '“For millions, healthcare ends where the road does.”';
   const [display, setDisplay] = React.useState('');
 
   useEffect(() => {
