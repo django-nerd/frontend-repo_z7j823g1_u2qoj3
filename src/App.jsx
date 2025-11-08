@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroCover from './components/HeroCover';
 import ProblemSection from './components/ProblemSection';
+import SolutionSection from './components/SolutionSection';
 import ScrollIndicator from './components/ScrollIndicator';
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
 
       {/* Problem section (split layout with animated map) */}
       <ProblemSection />
+
+      {/* Solution section with split layout and phone mockup */}
+      <SolutionSection />
 
       {/* Global scroll indicator near bottom of viewport */}
       <div className="relative">
