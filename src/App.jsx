@@ -2,6 +2,7 @@ import React from 'react';
 import HeroCover from './components/HeroCover';
 import ProblemSection from './components/ProblemSection';
 import SolutionSection from './components/SolutionSection';
+import FeaturesUSPSection from './components/FeaturesUSPSection';
 import ScrollIndicator from './components/ScrollIndicator';
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
 
       {/* Solution section with split layout and phone mockup */}
       <SolutionSection />
+
+      {/* Features & USP section */}
+      <FeaturesUSPSection />
 
       {/* Global scroll indicator near bottom of viewport */}
       <div className="relative">
